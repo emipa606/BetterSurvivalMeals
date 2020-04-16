@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MealBase">
+    <defName>MealSurvivalPackFine</defName>
+    <label>fine packaged survival meal</label>
+    <description>A fine packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>FineSurvivalPack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>AteFineMeal</tasteThought>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="MealBase">
+    <defName>MealSurvivalPackLavish</defName>
+    <label>lavish packaged survival meal</label>
+    <description>A lavish packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>LavishSurvivalPack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>40</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>800</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Survival Meal Thoughts -->
+
+  <AteLavishSurvivalMeal.stages.0.label>吃了奢侈生存食品包</AteLavishSurvivalMeal.stages.0.label>
+  <AteLavishSurvivalMeal.stages.0.description>這奢侈的生存食品太令人驚艷了，徹底滋潤我的身體與靈魂。</AteLavishSurvivalMeal.stages.0.description>
+
+  <AteFineSurvivalMeal.stages.0.label>吃了精緻生存食品包</AteFineSurvivalMeal.stages.0.label>
+  <AteFineSurvivalMeal.stages.0.description>我吃了美味的精緻生存食品，好吃!</AteFineSurvivalMeal.stages.0.description>
+
+
+</LanguageData>
