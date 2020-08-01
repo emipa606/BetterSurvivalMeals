@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Better Survival Meals (Continued)</name>
-  	<packageId>Mlie.BetterSurvivalMeals</packageId>
-	<author>Agracore</author>
-	<url>https://github.com/emipa606/BetterSurvivalMeals</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Honey Badgers mod for RimWorld 1.1
+  <name>Better Survival Meals (Continued)</name>
+  <packageId>Mlie.BetterSurvivalMeals</packageId>
+  <author>Agracore</author>
+  <url>https://github.com/emipa606/BetterSurvivalMeals</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Honey Badgers mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1716979038
 
 [img]https://i.imgur.com/GYswkZ7.png[/img]
