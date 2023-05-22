@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealSurvivalFine.label>cook fine packaged survival meal</CookMealSurvivalFine.label>
+  <CookMealSurvivalFine.description>Prepare a fine packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalFine.description>
+  <CookMealSurvivalFine.jobString>Cooking fine survival meal.</CookMealSurvivalFine.jobString>
+
+  <CookMealSurvivalLavish.label>cook lavish packaged survival meal</CookMealSurvivalLavish.label>
+  <CookMealSurvivalLavish.description>Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalLavish.description>
+  <CookMealSurvivalLavish.jobString>Cooking lavish survival meal.</CookMealSurvivalLavish.jobString>
+
+  <CookMealSurvivalFineBulk.label>cook fine packaged survival meal x4</CookMealSurvivalFineBulk.label>
+  <CookMealSurvivalFineBulk.description>Prepare 4 fine packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalFineBulk.description>
+  <CookMealSurvivalFineBulk.jobString>Cooking 4 fine survival meals.</CookMealSurvivalFineBulk.jobString>
+
+  <CookMealSurvivalLavishBulk.label>cook lavish packaged survival meal x4</CookMealSurvivalLavishBulk.label>
+  <CookMealSurvivalLavishBulk.description>Prepare 4 lavish packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalLavishBulk.description>
+  <CookMealSurvivalLavishBulk.jobString>Cooking 4 lavish survival meals.</CookMealSurvivalLavishBulk.jobString>
+
+
+</LanguageData>

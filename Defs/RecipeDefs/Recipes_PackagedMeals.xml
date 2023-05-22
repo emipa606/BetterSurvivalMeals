@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<RecipeDef Name="CookMealSurvivalBase" ParentName="CookMealBase" Abstract="True">
-		<recipeUsers>
-			<li>ElectricStove</li>
-			<li>FueledStove</li>
-		</recipeUsers>
-	</RecipeDef>
-	
+  <RecipeDef Name="CookMealSurvivalBase" ParentName="CookMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
   <RecipeDef ParentName="CookMealSurvivalBase">
     <defName>CookMealSurvivalFine</defName>
     <label>cook fine packaged survival meal</label>
@@ -45,7 +43,6 @@
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  
   <RecipeDef ParentName="CookMealSurvivalBase">
     <defName>CookMealSurvivalLavish</defName>
     <label>cook lavish packaged survival meal</label>
@@ -83,7 +80,6 @@
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
-  
   <RecipeDef ParentName="CookMealSurvivalBase">
     <defName>CookMealSurvivalFineBulk</defName>
     <label>cook fine packaged survival meal x4</label>
