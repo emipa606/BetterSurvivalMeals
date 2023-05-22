@@ -44,43 +44,6 @@
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>
   <RecipeDef ParentName="CookMealSurvivalBase">
-    <defName>CookMealSurvivalLavish</defName>
-    <label>cook lavish packaged survival meal</label>
-    <description>Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
-    <jobString>Cooking lavish survival meal.</jobString>
-    <workSpeedStat>CookSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>MeatRaw</li>
-            <li>AnimalProductRaw</li>
-          </categories>
-        </filter>
-        <count>0.5</count>
-      </li>
-      <li>
-        <filter>
-          <categories>
-            <li>PlantFoodRaw</li>
-          </categories>
-        </filter>
-        <count>0.5</count>
-      </li>
-    </ingredients>
-    <products>
-      <MealSurvivalPackLavish>1</MealSurvivalPackLavish>
-    </products>
-    <skillRequirements>
-      <Cooking>8</Cooking>
-    </skillRequirements>
-    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
-  </RecipeDef>
-  <RecipeDef ParentName="CookMealSurvivalBase">
     <defName>CookMealSurvivalFineBulk</defName>
     <label>cook fine packaged survival meal x4</label>
     <description>Prepare 4 fine packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
@@ -115,6 +78,43 @@
     </products>
     <skillRequirements>
       <Cooking>9</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase">
+    <defName>CookMealSurvivalLavish</defName>
+    <label>cook lavish packaged survival meal</label>
+    <description>Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking lavish survival meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPackLavish>1</MealSurvivalPackLavish>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
   </RecipeDef>

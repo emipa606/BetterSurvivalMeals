@@ -10,9 +10,9 @@
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
-      <MarketValue>20</MarketValue>
+      <MarketValue>32</MarketValue>
       <Mass>0.3</Mass>
-      <WorkToMake>450</WorkToMake>
+      <WorkToMake>600</WorkToMake>
       <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
@@ -34,9 +34,9 @@
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
-      <MarketValue>40</MarketValue>
+      <MarketValue>64</MarketValue>
       <Mass>0.3</Mass>
-      <WorkToMake>800</WorkToMake>
+      <WorkToMake>1100</WorkToMake>
       <Nutrition>1</Nutrition>
     </statBases>
     <ingestible>
