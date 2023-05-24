@@ -37,8 +37,8 @@ Features include:
 ![Image]( https://imgur.com/eleUy2e.png )
 
 
-** Work to make : [u]450[/u] **
-** Value : [u]20[/u] **
+** Work to make : [strike]450[/strike] [u]600[/u] **
+** Value : [strike]20[/strike] [u]32[/u] **
 ** Nutrition : [u]0.9[/u] **
 ** Taste thought : ate fine survival meal +5 **
 
@@ -47,8 +47,8 @@ Features include:
 ![Image]( https://imgur.com/1iev3u9.png )
 
 
-** Work to make : [u]800[/u] **
-** Value : [u]40[/u] **
+** Work to make : [strike]800[/strike] [u]1100[/u] **
+** Value : [strike]40[/strike] [u]64[/u] **
 ** Nutrition : [u]1.0[/u] **
 ** Taste thought : ate lavish survival meal +12 **
 
@@ -85,4 +85,4 @@ Features include:
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]Last updated 2023-05-22
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]Last updated 2023-05-24

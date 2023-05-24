@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="BetterSurvivalMeals_UpdateFeatureBase">
+		<modNameReadable>BetterSurvivalMeals</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2063417558</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="BetterSurvivalMeals_UpdateFeatureBase">
+		<defName>BetterSurvivalMeals_1_4_2</defName>
+		<assemblyVersion>1.4.2</assemblyVersion>
+		<content>If Ideology is loaded there is now also vegetarian and carnivore variants of the survival meals.
+The graphics is slightly changed to make these variants more distinct.
+The vanilla survival meal now also have stack-visuals.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

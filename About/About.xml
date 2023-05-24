@@ -54,16 +54,16 @@ Features include:
 [h1] FINE SURVIVAL MEAL [/h1]
 [img] https://imgur.com/eleUy2e.png [/img]
 
-[b] Work to make : [u]450[/u] [/b]
-[b] Value : [u]20[/u] [/b]
+[b] Work to make : [strike]450[/strike] [u]600[/u] [/b]
+[b] Value : [strike]20[/strike] [u]32[/u] [/b]
 [b] Nutrition : [u]0.9[/u] [/b]
 [b] Taste thought : ate fine survival meal +5 [/b]
 
 [h1] LAVISH SURVIVAL MEAL [/h1]
 [img] https://imgur.com/1iev3u9.png [/img]
 
-[b] Work to make : [u]800[/u] [/b]
-[b] Value : [u]40[/u] [/b]
+[b] Work to make : [strike]800[/strike] [u]1100[/u] [/b]
+[b] Value : [strike]40[/strike] [u]64[/u] [/b]
 [b] Nutrition : [u]1.0[/u] [/b]
 [b] Taste thought : ate lavish survival meal +12 [/b]
 
@@ -94,5 +94,5 @@ Features include:
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]Last updated 2023-05-22[/url]</description>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]Last updated 2023-05-24[/url]</description>
 </ModMetaData>

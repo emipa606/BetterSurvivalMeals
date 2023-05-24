@@ -1,5 +1,8 @@
 # Changelog for BetterSurvivalMeals
 
+1.4.2 - Added vegetarian and carnivore variants for ideology, changed the graphics to make them more distinct
+
+
 1.4.1 - Updated for 1.3 and 1.4 since the original has been removed
 
 

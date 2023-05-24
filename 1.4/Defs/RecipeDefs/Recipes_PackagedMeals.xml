@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="CookMealSurvivalBase" ParentName="CookMealBase" Abstract="True">
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvival_Meat</defName>
+    <label>cook carnivore simple packaged survival meal</label>
+    <description>Prepare a simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking carnivore fine survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPack_Meat>1</MealSurvivalPack_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <displayPriority>1426</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvival_Veg</defName>
+    <label>cook vegetarian simple packaged survival meal</label>
+    <description>Prepare a vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking vegetarian simple survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPack_Veg>1</MealSurvivalPack_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <displayPriority>1423</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalBulk_Meat</defName>
+    <label>cook carnivore simple packaged survival meal x4</label>
+    <description>Prepare 4 simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 carnivore fine survival meal.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2.40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPack_Meat>4</MealSurvivalPack_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1429</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalBulk_Veg</defName>
+    <label>cook vegetarian simple packaged survival meal x4</label>
+    <description>Prepare 4 vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 vegetarian simple survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>2.40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPack_Veg>4</MealSurvivalPack_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1425</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase">
+    <defName>CookMealSurvivalFine</defName>
+    <label>cook fine packaged survival meal</label>
+    <description>Prepare a fine packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking fine survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.40</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.40</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPackFine>1</MealSurvivalPackFine>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1411</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalFine_Meat</defName>
+    <label>cook carnivore fine packaged survival meal</label>
+    <description>Prepare a carnivore fine packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking carnivore fine survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackFine_Meat>1</MealSurvivalPackFine_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1427</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalFine_Veg</defName>
+    <label>cook vegetarian fine packaged survival meal</label>
+    <description>Prepare a vegetarian fine packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking vegetarian fine survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackFine_Veg>1</MealSurvivalPackFine_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1424</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase">
+    <defName>CookMealSurvivalFineBulk</defName>
+    <label>cook fine packaged survival meal x4</label>
+    <description>Prepare 4 fine packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking 4 fine survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1.70</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.70</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPackFine>4</MealSurvivalPackFine>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1421</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalFineBulk_Meat</defName>
+    <label>cook carnivore fine packaged survival meal x4</label>
+    <description>Prepare 4 carnivore fine packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 carnivore fine survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>3.40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackFine_Meat>4</MealSurvivalPackFine_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1429</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalFineBulk_Veg</defName>
+    <label>cook vegetarian fine packaged survival meal x4</label>
+    <description>Prepare 4 vegetarian fine packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 vegetarian fine survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>3.40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackFine_Veg>4</MealSurvivalPackFine_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>9</Cooking>
+    </skillRequirements>
+    <displayPriority>1425</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase">
+    <defName>CookMealSurvivalLavish</defName>
+    <label>cook lavish packaged survival meal</label>
+    <description>Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking lavish survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPackLavish>1</MealSurvivalPackLavish>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1412</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalLavish_Meat</defName>
+    <label>cook carnivore lavish packaged survival meal</label>
+    <description>Prepare a carnivore lavish packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking carnivore lavish survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackLavish_Meat>1</MealSurvivalPackLavish_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1428</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalLavish_Veg</defName>
+    <label>cook vegetarian lavish packaged survival meal</label>
+    <description>Prepare a vegetarian lavish packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking vegetarian lavish survival meal.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackLavish_Veg>1</MealSurvivalPackLavish_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1424</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase">
+    <defName>CookMealSurvivalLavishBulk</defName>
+    <label>cook lavish packaged survival meal x4</label>
+    <description>Prepare 4 lavish packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking 4 lavish survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>2.10</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>2.10</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSurvivalPackLavish>4</MealSurvivalPackLavish>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1422</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalLavishBulk_Meat</defName>
+    <label>cook carnivore lavish packaged survival meal x4</label>
+    <description>Prepare 4 carnivore lavish packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 carnivore lavish survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>4.20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackLavish_Meat>4</MealSurvivalPackLavish_Meat>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1429</displayPriority>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>CookMealSurvivalLavishBulk_Veg</defName>
+    <label>cook vegetarian lavish packaged survival meal x4</label>
+    <description>Prepare 4 vegetarian lavish packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</description>
+    <jobString>Cooking 4 vegetarian lavish survival meals.</jobString>
+    <workAmount>1440</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>4.20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MealSurvivalPackLavish_Veg>4</MealSurvivalPackLavish_Veg>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <displayPriority>1425</displayPriority>
+  </RecipeDef>
+</Defs>

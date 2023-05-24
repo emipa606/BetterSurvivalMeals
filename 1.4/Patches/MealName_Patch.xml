@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]/label</xpath>
+        <value>
+          <label>simple packaged survival meal</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]/description</xpath>
+        <value>
+          <description>A simple packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>SimpleSurvivalPack</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]/graphicData/graphicClass</xpath>
+        <value>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvival"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvival"]/label</xpath>
+        <value>
+          <label>cook simple packaged survival meal</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvival"]/description</xpath>
+        <value>
+          <description>Prepare a simple packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvival"]/jobString</xpath>
+        <value>
+          <jobString>Cooking simple survival meal.</jobString>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]/label</xpath>
+        <value>
+          <label>cook simple packaged survival meal x4</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]/description</xpath>
+        <value>
+          <description>Prepare 4 simple packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSurvivalBulk"]/jobString</xpath>
+        <value>
+          <jobString>Cooking 4 simple survival meal.</jobString>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
