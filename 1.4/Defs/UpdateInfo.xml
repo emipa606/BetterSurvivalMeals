@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<TabulaRasa.UpdateDef Abstract="true" Name="BetterSurvivalMeals_UpdateInfoBase">
-		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2063417558</linkUrl>
-		<banner>UpdateInfo/BetterSurvivalMeals</banner>
-	</TabulaRasa.UpdateDef>
-	<TabulaRasa.UpdateDef ParentName="BetterSurvivalMeals_UpdateInfoBase">
-		<defName>BetterSurvivalMeals_1_4_2</defName>
-		<date>2023/5/24</date>
-		<content>If Ideology is loaded there is now also vegetarian and carnivore variants of the survival meals.
+  <TabulaRasa.UpdateDef Abstract="true" Name="BetterSurvivalMeals_UpdateInfoBase">
+    <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2063417558</linkUrl>
+    <banner>UpdateInfo/BetterSurvivalMeals</banner>
+  </TabulaRasa.UpdateDef>
+  <TabulaRasa.UpdateDef ParentName="BetterSurvivalMeals_UpdateInfoBase">
+    <defName>BetterSurvivalMeals_1_4_2</defName>
+    <date>2023/5/24</date>
+    <content>If Ideology is loaded there is now also vegetarian and carnivore variants of the survival meals.
 The graphics is slightly changed to make these variants more distinct.
 The vanilla survival meal now also have stack-visuals.</content>
-	</TabulaRasa.UpdateDef>
+  </TabulaRasa.UpdateDef>
 </Defs>
-

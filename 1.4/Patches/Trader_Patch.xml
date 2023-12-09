@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/TraderKindDef/stockGenerators/li[@Class = "StockGenerator_SingleDef" and thingDef = "MealSurvivalPack"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/TraderKindDef/stockGenerators/li[@Class = "StockGenerator_SingleDef" and thingDef = "MealSurvivalPack"]</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>SurvivalMeals</categoryDef>
+            <thingDefCountRange>3~6</thingDefCountRange>
+            <countRange>12~50</countRange>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

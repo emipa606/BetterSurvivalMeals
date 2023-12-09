@@ -1,11 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <ThingCategoryDef>
+    <defName>SurvivalMeals</defName>
+    <label>survival meals</label>
+    <parent>Foods</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>UI/SimpleSurvivalPack</iconPath>
+  </ThingCategoryDef>
   <ThingDef ParentName="MealBaseIngredientless" Name="SurvivalMealBase" Abstract="True">
     <graphicData>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <allowedArchonexusCount>40</allowedArchonexusCount>
     <tradeability>Buyable</tradeability>
+    <thingCategories Inherit="False">
+      <li>SurvivalMeals</li>
+    </thingCategories>
   </ThingDef>
   <ThingDef ParentName="SurvivalMealBase" MayRequire="Ludeon.RimWorld.Ideology">
     <defName>MealSurvivalPack_Veg</defName>

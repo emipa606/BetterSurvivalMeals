@@ -9,6 +9,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1716979038
 - Replaced the old xml-defs with patching to avoid overwrite vanilla definitions for meal and stoves
 - Added stack-version of the meal-icon, the same as vanilla behaviour
 - Removed the extra thought-definitions since they were identical to the normal "ate fine/lavish meal" in terms of values
+- If ideology is loaded there are also vegetarian and carnivore variants
+- Updated the graphics to make them more distinct
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -79,10 +81,13 @@ Features include:
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]Last updated 2023-05-24
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]![Image](https://img.shields.io/github/v/release/emipa606/BetterSurvivalMeals?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

@@ -12,6 +12,14 @@
           <label>simple packaged survival meal</label>
         </value>
       </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>SurvivalMeals</li>
+          </thingCategories>
+        </value>
+      </li>
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName = "MealSurvivalPack"]/description</xpath>
         <value>

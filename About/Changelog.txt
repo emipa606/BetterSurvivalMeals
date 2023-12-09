@@ -1,5 +1,8 @@
 # Changelog for BetterSurvivalMeals
 
+1.4.3 - Traders should now be able to buy/sell the extra meals. Also added a category for them
+
+
 1.4.2 - Added vegetarian and carnivore variants for ideology, changed the graphics to make them more distinct
 
 
