@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>SurvivalMeals</defName>
+    <label>survival meals</label>
+    <parent>Foods</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>UI/SimpleSurvivalPack</iconPath>
+  </ThingCategoryDef>
+  <ThingDef ParentName="MealBaseIngredientless" Name="SurvivalMealBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+    <tradeability>Buyable</tradeability>
+    <thingCategories Inherit="False">
+      <li>SurvivalMeals</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPack_Veg</defName>
+    <label>vegetarian packaged survival meal</label>
+    <description>A high-quality vegetarian packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>SimpleSurvivalPackVeg</texPath>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPack_Meat</defName>
+    <label>carnivore packaged survival meal</label>
+    <description>A high-quality carnivore packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>SimpleSurvivalPackMeat</texPath>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" Inherit="False">
+        <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealBase" Name="SurvivalMealFineBase" Abstract="True">
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>32</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>600</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealFineBase">
+    <defName>MealSurvivalPackFine</defName>
+    <label>fine packaged survival meal</label>
+    <description>A fine packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>FineSurvivalPack</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <splitTransferableFoodKind>true</splitTransferableFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealFineBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPackFine_Veg</defName>
+    <label>vegetarian fine packaged survival meal</label>
+    <description>A fine packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>FineSurvivalPackVeg</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients" Inherit="False">
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealFineBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPackFine_Meat</defName>
+    <label>carnivore fine packaged survival meal</label>
+    <description>A fine packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>FineSurvivalPackMeat</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients" Inherit="False">
+        <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealBase" Name="SurvivalMealLavishBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>64</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>1100</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealLavishBase">
+    <defName>MealSurvivalPackLavish</defName>
+    <label>lavish packaged survival meal</label>
+    <description>A lavish packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>LavishSurvivalPack</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <splitTransferableFoodKind>true</splitTransferableFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealLavishBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPackLavish_Veg</defName>
+    <label>vegetarian lavish packaged survival meal</label>
+    <description>A lavish packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>LavishSurvivalPackVeg</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients" Inherit="False">
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SurvivalMealLavishBase" MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MealSurvivalPackLavish_Meat</defName>
+    <label>carnivore lavish packaged survival meal</label>
+    <description>A lavish packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>LavishSurvivalPackMeat</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Ingredients" Inherit="False">
+        <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
