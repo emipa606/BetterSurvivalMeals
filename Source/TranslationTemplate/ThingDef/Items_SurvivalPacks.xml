@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: carnivore packaged survival meal -->
+  <MealSurvivalPack_Meat.label>carnivore packaged survival meal</MealSurvivalPack_Meat.label>
+  <!-- EN: A high-quality carnivore packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPack_Meat.description>A high-quality carnivore packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPack_Meat.description>
+  <!-- EN: vegetarian packaged survival meal -->
+  <MealSurvivalPack_Veg.label>vegetarian packaged survival meal</MealSurvivalPack_Veg.label>
+  <!-- EN: A high-quality vegetarian packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPack_Veg.description>A high-quality vegetarian packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPack_Veg.description>
+  <!-- EN: fine packaged survival meal -->
+  <MealSurvivalPackFine.label>fine packaged survival meal</MealSurvivalPackFine.label>
+  <!-- EN: A fine packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackFine.description>A fine packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackFine.description>
+  <!-- EN: carnivore fine packaged survival meal -->
+  <MealSurvivalPackFine_Meat.label>carnivore fine packaged survival meal</MealSurvivalPackFine_Meat.label>
+  <!-- EN: A fine packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackFine_Meat.description>A fine packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackFine_Meat.description>
+  <!-- EN: vegetarian fine packaged survival meal -->
+  <MealSurvivalPackFine_Veg.label>vegetarian fine packaged survival meal</MealSurvivalPackFine_Veg.label>
+  <!-- EN: A fine packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackFine_Veg.description>A fine packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackFine_Veg.description>
+  <!-- EN: lavish packaged survival meal -->
+  <MealSurvivalPackLavish.label>lavish packaged survival meal</MealSurvivalPackLavish.label>
+  <!-- EN: A lavish packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackLavish.description>A lavish packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackLavish.description>
+  <!-- EN: carnivore lavish packaged survival meal -->
+  <MealSurvivalPackLavish_Meat.label>carnivore lavish packaged survival meal</MealSurvivalPackLavish_Meat.label>
+  <!-- EN: A lavish packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackLavish_Meat.description>A lavish packaged meal, manufactured for use in survival situations from meat ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackLavish_Meat.description>
+  <!-- EN: vegetarian lavish packaged survival meal -->
+  <MealSurvivalPackLavish_Veg.label>vegetarian lavish packaged survival meal</MealSurvivalPackLavish_Veg.label>
+  <!-- EN: A lavish packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling. -->
+  <MealSurvivalPackLavish_Veg.description>A lavish packaged meal, manufactured for use in survival situations from vegetarian ingredients. While it never rots, it can still deteriorate if left outside. Great for traveling.</MealSurvivalPackLavish_Veg.description>
+</LanguageData>

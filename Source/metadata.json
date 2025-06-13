@@ -1,6 +1,9 @@
 {
   "Continued": true,
-  "CanAdd": "",
-  "CanRemove": "",
-  "PreviewVersion": "1.5"
+  "CanAdd": "0",
+  "CanRemove": "2",
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-06-13T21:52:39.8584004+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " vanilla"
 }

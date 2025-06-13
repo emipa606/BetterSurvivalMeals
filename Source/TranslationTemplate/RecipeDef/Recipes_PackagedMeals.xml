@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook carnivore simple packaged survival meal -->
+  <CookMealSurvival_Meat.label>cook carnivore simple packaged survival meal</CookMealSurvival_Meat.label>
+  <!-- EN: Prepare a simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvival_Meat.description>Prepare a simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvival_Meat.description>
+  <!-- EN: Cooking carnivore fine survival meal. -->
+  <CookMealSurvival_Meat.jobString>Cooking carnivore fine survival meal.</CookMealSurvival_Meat.jobString>
+  <!-- EN: cook vegetarian simple packaged survival meal -->
+  <CookMealSurvival_Veg.label>cook vegetarian simple packaged survival meal</CookMealSurvival_Veg.label>
+  <!-- EN: Prepare a vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvival_Veg.description>Prepare a vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvival_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvival_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvival_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking vegetarian simple survival meal. -->
+  <CookMealSurvival_Veg.jobString>Cooking vegetarian simple survival meal.</CookMealSurvival_Veg.jobString>
+  <!-- EN: cook carnivore simple packaged survival meal x4 -->
+  <CookMealSurvivalBulk_Meat.label>cook carnivore simple packaged survival meal x4</CookMealSurvivalBulk_Meat.label>
+  <!-- EN: Prepare 4 simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvivalBulk_Meat.description>Prepare 4 simple packaged survival meal from meat only. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvivalBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore fine survival meal. -->
+  <CookMealSurvivalBulk_Meat.jobString>Cooking 4 carnivore fine survival meal.</CookMealSurvivalBulk_Meat.jobString>
+  <!-- EN: cook vegetarian simple packaged survival meal x4 -->
+  <CookMealSurvivalBulk_Veg.label>cook vegetarian simple packaged survival meal x4</CookMealSurvivalBulk_Veg.label>
+  <!-- EN: Prepare 4 vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvivalBulk_Veg.description>Prepare 4 vegetarian simple packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvivalBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvivalBulk_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvivalBulk_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 vegetarian simple survival meal. -->
+  <CookMealSurvivalBulk_Veg.jobString>Cooking 4 vegetarian simple survival meal.</CookMealSurvivalBulk_Veg.jobString>
+  <!-- EN: cook fine packaged survival meal -->
+  <CookMealSurvivalFine.label>cook fine packaged survival meal</CookMealSurvivalFine.label>
+  <!-- EN: Prepare a fine packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalFine.description>Prepare a fine packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalFine.description>
+  <!-- EN: Cooking fine survival meal. -->
+  <CookMealSurvivalFine.jobString>Cooking fine survival meal.</CookMealSurvivalFine.jobString>
+  <!-- EN: cook carnivore fine packaged survival meal -->
+  <CookMealSurvivalFine_Meat.label>cook carnivore fine packaged survival meal</CookMealSurvivalFine_Meat.label>
+  <!-- EN: Prepare a carnivore fine packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvivalFine_Meat.description>Prepare a carnivore fine packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvivalFine_Meat.description>
+  <!-- EN: Cooking carnivore fine survival meal. -->
+  <CookMealSurvivalFine_Meat.jobString>Cooking carnivore fine survival meal.</CookMealSurvivalFine_Meat.jobString>
+  <!-- EN: cook vegetarian fine packaged survival meal -->
+  <CookMealSurvivalFine_Veg.label>cook vegetarian fine packaged survival meal</CookMealSurvivalFine_Veg.label>
+  <!-- EN: Prepare a vegetarian fine packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvivalFine_Veg.description>Prepare a vegetarian fine packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvivalFine_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvivalFine_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvivalFine_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking vegetarian fine survival meal. -->
+  <CookMealSurvivalFine_Veg.jobString>Cooking vegetarian fine survival meal.</CookMealSurvivalFine_Veg.jobString>
+  <!-- EN: cook fine packaged survival meal x4 -->
+  <CookMealSurvivalFineBulk.label>cook fine packaged survival meal x4</CookMealSurvivalFineBulk.label>
+  <!-- EN: Prepare 4 fine packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalFineBulk.description>Prepare 4 fine packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalFineBulk.description>
+  <!-- EN: Cooking 4 fine survival meals. -->
+  <CookMealSurvivalFineBulk.jobString>Cooking 4 fine survival meals.</CookMealSurvivalFineBulk.jobString>
+  <!-- EN: cook carnivore fine packaged survival meal x4 -->
+  <CookMealSurvivalFineBulk_Meat.label>cook carnivore fine packaged survival meal x4</CookMealSurvivalFineBulk_Meat.label>
+  <!-- EN: Prepare 4 carnivore fine packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvivalFineBulk_Meat.description>Prepare 4 carnivore fine packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvivalFineBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore fine survival meals. -->
+  <CookMealSurvivalFineBulk_Meat.jobString>Cooking 4 carnivore fine survival meals.</CookMealSurvivalFineBulk_Meat.jobString>
+  <!-- EN: cook vegetarian fine packaged survival meal x4 -->
+  <CookMealSurvivalFineBulk_Veg.label>cook vegetarian fine packaged survival meal x4</CookMealSurvivalFineBulk_Veg.label>
+  <!-- EN: Prepare 4 vegetarian fine packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvivalFineBulk_Veg.description>Prepare 4 vegetarian fine packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvivalFineBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvivalFineBulk_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvivalFineBulk_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 vegetarian fine survival meals. -->
+  <CookMealSurvivalFineBulk_Veg.jobString>Cooking 4 vegetarian fine survival meals.</CookMealSurvivalFineBulk_Veg.jobString>
+  <!-- EN: cook lavish packaged survival meal -->
+  <CookMealSurvivalLavish.label>cook lavish packaged survival meal</CookMealSurvivalLavish.label>
+  <!-- EN: Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalLavish.description>Prepare a lavish packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalLavish.description>
+  <!-- EN: Cooking lavish survival meal. -->
+  <CookMealSurvivalLavish.jobString>Cooking lavish survival meal.</CookMealSurvivalLavish.jobString>
+  <!-- EN: cook carnivore lavish packaged survival meal -->
+  <CookMealSurvivalLavish_Meat.label>cook carnivore lavish packaged survival meal</CookMealSurvivalLavish_Meat.label>
+  <!-- EN: Prepare a carnivore lavish packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvivalLavish_Meat.description>Prepare a carnivore lavish packaged survival meal from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvivalLavish_Meat.description>
+  <!-- EN: Cooking carnivore lavish survival meal. -->
+  <CookMealSurvivalLavish_Meat.jobString>Cooking carnivore lavish survival meal.</CookMealSurvivalLavish_Meat.jobString>
+  <!-- EN: cook vegetarian lavish packaged survival meal -->
+  <CookMealSurvivalLavish_Veg.label>cook vegetarian lavish packaged survival meal</CookMealSurvivalLavish_Veg.label>
+  <!-- EN: Prepare a vegetarian lavish packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvivalLavish_Veg.description>Prepare a vegetarian lavish packaged survival meal from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvivalLavish_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvivalLavish_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvivalLavish_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking vegetarian lavish survival meal. -->
+  <CookMealSurvivalLavish_Veg.jobString>Cooking vegetarian lavish survival meal.</CookMealSurvivalLavish_Veg.jobString>
+  <!-- EN: cook lavish packaged survival meal x4 -->
+  <CookMealSurvivalLavishBulk.label>cook lavish packaged survival meal x4</CookMealSurvivalLavishBulk.label>
+  <!-- EN: Prepare 4 lavish packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalLavishBulk.description>Prepare 4 lavish packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</CookMealSurvivalLavishBulk.description>
+  <!-- EN: Cooking 4 lavish survival meals. -->
+  <CookMealSurvivalLavishBulk.jobString>Cooking 4 lavish survival meals.</CookMealSurvivalLavishBulk.jobString>
+  <!-- EN: cook carnivore lavish packaged survival meal x4 -->
+  <CookMealSurvivalLavishBulk_Meat.label>cook carnivore lavish packaged survival meal x4</CookMealSurvivalLavishBulk_Meat.label>
+  <!-- EN: Prepare 4 carnivore lavish packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealSurvivalLavishBulk_Meat.description>Prepare 4 carnivore lavish packaged survival meals from meat alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with meat alone introduces extra inefficiencies.</CookMealSurvivalLavishBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore lavish survival meals. -->
+  <CookMealSurvivalLavishBulk_Meat.jobString>Cooking 4 carnivore lavish survival meals.</CookMealSurvivalLavishBulk_Meat.jobString>
+  <!-- EN: cook vegetarian lavish packaged survival meal x4 -->
+  <CookMealSurvivalLavishBulk_Veg.label>cook vegetarian lavish packaged survival meal x4</CookMealSurvivalLavishBulk_Veg.label>
+  <!-- EN: Prepare 4 vegetarian lavish packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealSurvivalLavishBulk_Veg.description>Prepare 4 vegetarian lavish packaged survival meals from plants alone. Much of the ingredients are wasted in the preservation process. Producing varied flavors with plants alone introduces extra inefficiencies.</CookMealSurvivalLavishBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealSurvivalLavishBulk_Veg.ingredients.0.filter.customSummary>vegetarian ingredients</CookMealSurvivalLavishBulk_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 vegetarian lavish survival meals. -->
+  <CookMealSurvivalLavishBulk_Veg.jobString>Cooking 4 vegetarian lavish survival meals.</CookMealSurvivalLavishBulk_Veg.jobString>
+</LanguageData>

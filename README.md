@@ -1,4 +1,4 @@
-# BetterSurvivalMeals
+# [Better Survival Meals (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2063417558)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -13,10 +13,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1716979038
 - Updated the graphics to make them more distinct
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 Mod Version: 1.2
 	
@@ -27,31 +25,28 @@ Features include:
 #  SIMPLE SURVIVAL MEAL 
 
 ![Image]( https://imgur.com/eaMESi9.png )
-
 (replaces normal survival meal)
 
-** Work to make : [u]300[/u] **
-** Value : [u]15[/u] **
-** Nutrition : [u]0.9[/u] **
+** Work to make : <ins>300</ins> **
+** Value : <ins>15</ins> **
+** Nutrition : <ins>0.9</ins> **
 
 #  FINE SURVIVAL MEAL 
 
 ![Image]( https://imgur.com/eleUy2e.png )
 
-
-** Work to make : [strike]450[/strike] [u]600[/u] **
-** Value : [strike]20[/strike] [u]32[/u] **
-** Nutrition : [u]0.9[/u] **
+** Work to make : ~~450~~ <ins>600</ins> **
+** Value : ~~20~~ <ins>32</ins> **
+** Nutrition : <ins>0.9</ins> **
 ** Taste thought : ate fine survival meal +5 **
 
 #  LAVISH SURVIVAL MEAL 
 
 ![Image]( https://imgur.com/1iev3u9.png )
 
-
-** Work to make : [strike]800[/strike] [u]1100[/u] **
-** Value : [strike]40[/strike] [u]64[/u] **
-** Nutrition : [u]1.0[/u] **
+** Work to make : ~~800~~ <ins>1100</ins> **
+** Value : ~~40~~ <ins>64</ins> **
+** Nutrition : <ins>1.0</ins> **
 ** Taste thought : ate lavish survival meal +12 **
 
 (Values, Nutrition, and Work Amount are based directly from the in-game meal classes)
@@ -81,13 +76,12 @@ Features include:
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558]![Image](https://img.shields.io/github/v/release/emipa606/BetterSurvivalMeals?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/BetterSurvivalMeals?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2063417558) | tags:  vanilla
