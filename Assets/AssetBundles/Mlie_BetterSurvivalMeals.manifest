@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3872343439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9cf85b453740d6a2d8fb0fb6b8be1c1f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9cf85b453740d6a2d8fb0fb6b8be1c1f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPack/LavishSurvivalPack_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPack/FineSurvivalPack_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackVeg/SimpleSurvivalPackVeg_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackVeg/SimpleSurvivalPackVeg_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackMeat/SimpleSurvivalPackMeat_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackVeg/FineSurvivalPackVeg_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackMeat/LavishSurvivalPackMeat_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackMeat/FineSurvivalPackMeat_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackVeg/LavishSurvivalPackVeg_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackMeat/LavishSurvivalPackMeat_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackVeg/FineSurvivalPackVeg_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPack/LavishSurvivalPack_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPack/LavishSurvivalPack_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPack/SimpleSurvivalPack_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/UpdateInfo/BetterSurvivalMeals.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackMeat/SimpleSurvivalPackMeat_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackMeat/LavishSurvivalPackMeat_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackVeg/SimpleSurvivalPackVeg_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPack/SimpleSurvivalPack_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackVeg/LavishSurvivalPackVeg_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPack/FineSurvivalPack_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/LavishSurvivalPackVeg/LavishSurvivalPackVeg_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPack/SimpleSurvivalPack_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPack/FineSurvivalPack_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/SimpleSurvivalPackMeat/SimpleSurvivalPackMeat_a.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackMeat/FineSurvivalPackMeat_b.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackMeat/FineSurvivalPackMeat_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/FineSurvivalPackVeg/FineSurvivalPackVeg_c.png
+- Assets/Data/Mlie.BetterSurvivalMeals/Textures/UI/SimpleSurvivalPack.png
+Dependencies: []
