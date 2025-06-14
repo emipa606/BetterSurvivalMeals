@@ -3,11 +3,8 @@
   <Operation Class="PatchOperationSequence">
     <success>Normal</success>
     <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/Defs/TraderKindDef/stockGenerators/li[@Class = "StockGenerator_SingleDef" and thingDef = "MealSurvivalPack"]</xpath>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>/Defs/TraderKindDef/stockGenerators/li[@Class = "StockGenerator_SingleDef" and thingDef = "MealSurvivalPack"]</xpath>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef/stockGenerators/li[@Class = "StockGenerator_Category" and categoryDef = "FoodMeals"]/..</xpath>
         <value>
           <li Class="StockGenerator_Category">
             <categoryDef>SurvivalMeals</categoryDef>

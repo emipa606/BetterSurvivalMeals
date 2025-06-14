@@ -1,5 +1,8 @@
 # Changelog for BetterSurvivalMeals
 
+1.6.2 - Fixed trader stock
+
+
 1.6.1 - Fixed unique asset bundle filename
 
 

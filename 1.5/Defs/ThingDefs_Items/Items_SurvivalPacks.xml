@@ -12,7 +12,7 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <allowedArchonexusCount>40</allowedArchonexusCount>
-    <tradeability>Buyable</tradeability>
+    <tradeability>Sellable</tradeability>
     <thingCategories Inherit="False">
       <li>SurvivalMeals</li>
     </thingCategories>
